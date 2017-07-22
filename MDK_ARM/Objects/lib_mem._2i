@@ -1,0 +1,10 @@
+-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\..\toggle2 -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\ff9
+-I "D:\embeded system\stm\project\toggle2\MDK_ARM\RTE"
+-I "D:\embeded system\stm\project\toggle2\MDK_ARM\RTE\RTOS"
+-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include
+-I C:\Keil_v5\ARM\PACK\Micrium\RTOS\1.0.0\Software\uC-CPU
+-I C:\Keil_v5\ARM\PACK\Micrium\RTOS\1.0.0\Software\uC-CPU\ARM-Cortex-M3\RealView
+-I C:\Keil_v5\ARM\PACK\Micrium\RTOS\1.0.0\Software\uC-LIB
+-I C:\Keil_v5\ARM\CMSIS\Include
+-D__UVISION_VERSION="516" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD
+-o .\objects\lib_mem.o --omf_browse .\objects\lib_mem.crf --depend .\objects\lib_mem.d --feedback ".\Objects\project.fed" "C:\Keil_v5\ARM\PACK\Micrium\RTOS\1.0.0\Software\uC-LIB\lib_mem.c"
